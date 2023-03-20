@@ -1,0 +1,1918 @@
+  <!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script>
+		$(document).ready(function(){
+          $("#hide_btn").click(function(){
+            $("#data").hide();
+          });
+          $("#show_btn").click(function(){
+            $("#data").show();
+          });
+		});
+	</script>
+</head>
+<body>
+	<p id="data">hello</p>
+    <button id="hide_btn">hide</button>
+    <button id="show_btn">show</button>
+</body>
+</html>  -->
+ 
+
+
+
+
+
+
+
+
+   <!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script>
+		$(document).ready(function () {
+			$("#show_btn").hide();
+			$("#hide_btn").click(function(){
+				$("#data").hide();
+				$("#hide_btn").hide();
+				$("#show_btn").show();
+			});
+			$("#show_btn").click(function(){
+				$("#data").show();
+				$("#show_btn").hide();
+				$("#hide_btn").show();
+			});
+		});
+	</script>
+</head>
+<body>
+      <p id="data">hello</p>
+      <button id="hide_btn">Hide</button>
+      <button id="show_btn">Show</button>
+</body>
+</html>  -->
+  
+
+
+
+
+
+
+
+
+
+<!--  <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#hide_show_btn").click(function(){
+				var BtnName=$("#hide_show_btn").text();
+				// alert(BtnName);
+				if (BtnName=="Hide") 
+				{
+					$("#data").hide();
+					$("#hide_show_btn").text("Show");
+				}
+				if(BtnName=="Show")
+				{
+					$("#data").show();
+					$("#hide_show_btn").text("Hide");
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+      <p id="data">hello</p>
+      <button id="hide_show_btn">Hide</button>
+</body>
+</html>
+  -->
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<title></title>
+ 	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+ 	<script >
+ 		$(document).ready(function(){
+        $("#plus_btn").click(function(){
+           var FN=parseInt($("#fn").val());
+           var SN=parseInt($("#sn").val());
+           var ADD=FN+SN;
+           $("#result").val(ADD);
+        });
+ 		});
+ 	</script>
+ </head>
+ <body>
+     first number :-<input type="text" id="fn"><br><br>
+     second number :-<input type="text" id="sn"><br><br>
+     <button id="plus_btn">+</button><br><br>
+     result:-<input type="text" name="" id="result">
+ </body>
+ </html> -->
+ 
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script >
+		$(document).ready(function () {
+			$("#age_value").keyup(function(){
+				var age_value=$("#age_value").val();
+				if(age_value>=18)
+				{
+					$("#voating_btn").prop("disabled" , false);
+				}
+				else
+				{
+					$("#voating_btn").prop("disabled" , true);
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+age:-<input type="text"  id="age_value" onkeyup="voating_check()" ><br><br>
+<button id="voating_btn" disabled>voatig</button>
+</body>
+</html> -->
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+ <!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#on_btn").click(function(){
+				$("#light_img").attr("src","C:/Users/91756/Pictures/bilb3.jpg");
+			});
+			$("#off_btn").click(function(){
+				$("#light_img").attr("src","C:/Users/91756/Pictures/bilb2.jpg");
+			});
+		});
+	</script>
+</head>
+<body>
+<button id="on_btn">on</button>
+<img id="light_img" src="C:\Users\91756\Pictures/bilb2.jpg">
+<button id="off_btn">off</button>
+</body>
+</html>  -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+ 	<script >
+ 		$(document).ready(function(){
+       $("#seven").click(function(){
+         $("#result").val();
+       });
+        $("#eight").click(function(){
+         $("#result").val();
+       });
+         $("#nine").click(function(){
+         $("#result").val();
+       });
+ 		});
+ 	</script>
+</head>
+<body>
+<input type="text" id="result"><br><br>
+	<button id="seven">7</button>
+	<button id="eight">8</button>
+	<button id="nine">9</button>
+	<button id="plus">+</button><br><br>
+	<button id="four">4</button>
+	<button id="five">5</button>
+	<button id="six">6</button>
+	<button id="subs">-</button><br><br>
+	<button id="one">1</button>
+	<button id="two">2</button>
+	<button id="three">3</button>
+	<button id="multi">*</button><br><br>
+	<button id="zero">0</button>
+	<button id="dot">.</button>
+	<button id="devide">/</button>
+	<button id="equal">=</button>
+	<button id="all_clear">All Clear</button>
+	<button id="last_digit_clear">Last Digit Clear</button>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script >
+		$(document).ready(function(){
+			$("#pass").keyup(function(){
+				var PassLength=$("#pass").val().length;
+				// $("#msg").text(PassLength);
+				if(PassLength<1)
+				{
+					$("#msg").text("please fill password");
+					$("#msg").css("color","orange");
+				}
+			 else if(PassLength<=4)
+				{
+					$("#msg").text("weak");
+					$("#msg").css("color","red");
+				}
+				else if(PassLength<=8)
+				{
+           $("#msg").text("good");
+           $("#msg").css("color","blue");
+				}
+				else 
+				{
+           $("#msg").text("strong");
+           $("#msg").css("color","green");
+				}
+				
+			});
+		});
+	</script>
+</head>
+<body>
+       password:- <input type="password" id="pass" ><span id="msg"></span>
+</body>
+</html> 
+
+
+ -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style >
+		.orange
+		{
+			color: orange;
+		}
+		.red
+		{
+			color: red;
+		}
+		.blue
+		{
+			color: blue;
+		}
+		.green
+		{
+			color: green;
+		}
+	</style>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script >
+		$(document).ready(function(){
+			$("#pass").keyup(function(){
+				var PassLength=$("#pass").val().length;
+				// $("#msg").text(PassLength);
+				if(PassLength<1)
+				{
+					$("#msg").text("please fill password");
+					$("#msg").addClass("orange");
+					$("#msg").removeClass("red");
+				}
+			 else if(PassLength<=4)
+				{
+					$("#msg").text("weak");
+					$("#msg").addClass("red");
+					$("#msg").removeClass("blue");
+				}
+				else if(PassLength<=8)
+				{
+           $("#msg").text("good");
+           $("#msg").addClass("blue");
+           $("#msg").removeClass("green");
+				}
+				else 
+				{
+           $("#msg").text("strong");
+           $("#msg").addClass("green");
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+ password:- <input type="password" id="pass" ><span id="msg"></span>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+ <!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script>
+		 $(document).ready(function(){
+		 	$("#select_col").change(function(){
+		 		var ColorName=$("#select_col").val();
+		 		if(ColorName=="")
+		 		{
+		 			alert("please select color");
+		 		}
+		 		else
+		 		{
+		 			$("body").css("backgroundColor",ColorName);
+		 		}
+		 	});
+		 });
+	</script>
+</head>
+<body>
+    Select Body Color:- <select id="select_col">
+                           <option>select color</option>
+                           <option>red</option>
+                           <option>blue</option>
+                           <option>green</option>
+                           <option>yellow</option>
+                           <option>black</option>
+                           <option>brown</option>
+                           <option>pink</option>
+                           <option>skyblue</option>
+                           <option>orange</option>
+                           <option>gray</option>
+                        </select>
+</body>
+</html> 
+ -->
+
+
+
+
+
+
+
+
+
+
+
+ <!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script>
+		 $(document).ready(function(){
+		 	$("#fadeinBtn").click(function(){
+         $("#div1").fadeIn();
+         $("#div2").fadeIn("slow");
+         $("#div3").fadeIn(5000);
+		 	});
+		 });
+	</script>
+</head>
+<body>
+       <button id="fadeinBtn">FadeIn</button>
+       <div id="div1" style="width: 100px; height: 100px; background-color: pink; display: none;"></div>
+       <div id="div2" style="width: 100px; height: 100px; background-color: skyblue; display: none;"></div>
+       <div id="div3" style="width: 100px; height: 100px; background-color: yellow; display: none;"></div>
+</body>
+</html>  -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script>
+		 $(document).ready(function(){
+		 	$("#fadeOutBtn").click(function(){
+         $("#div1").fadeOut();
+         $("#div2").fadeOut("slow");
+         $("#div3").fadeOut(3000);
+		 	});
+		 });
+	</script>
+</head>
+<body>
+       <button id="fadeOutBtn">FadeOut</button>
+       <div id="div1" style="width: 100px; height: 100px; background-color: pink; "></div>
+       <div id="div2" style="width: 100px; height: 100px; background-color: skyblue; "></div>
+       <div id="div3" style="width: 100px; height: 100px; background-color: yellow; "></div>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script>
+		 $(document).ready(function(){
+		 	$("#fadeToggleBtn").click(function(){
+         $("#div1").fadeToggle();
+         $("#div2").fadeToggle("slow");
+         $("#div3").fadeToggle(3000);
+		 	});
+		 });
+	</script>
+</head>
+<body>
+       <button id="fadeToggleBtn">FadeToggle</button>
+       <div id="div1" style="width: 100px; height: 100px; background-color: pink; display: none;"></div>
+       <div id="div2" style="width: 100px; height: 100px; background-color: skyblue; display: none; "></div>
+       <div id="div3" style="width: 100px; height: 100px; background-color: yellow; display: none;"></div>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script>
+		 $(document).ready(function(){
+		 	$("#fadeToBtn").click(function(){
+         $("#div1").fadeTo("slow", 0.5);
+         $("#div2").fadeTo("slow", 0.7);
+         $("#div3").fadeTo("slow" ,1.2);
+		 	});
+		 });
+	</script>
+</head>
+<body>
+       <button id="fadeToBtn">FadeTo</button>
+       <div id="div1" style="width: 100px; height: 100px; background-color: pink; "></div>
+       <div id="div2" style="width: 100px; height: 100px; background-color: skyblue; "></div>
+       <div id="div3" style="width: 100px; height: 100px; background-color: yellow;"></div>
+</body>
+</html> 
+
+ -->
+
+
+
+
+
+
+
+
+
+
+
+<!--  <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script >
+		$(document).ready(function(){
+      $("#slideBtn").click(function(){
+        $("#slideDown").slideDown(5000);
+            });
+        });
+	</script>
+	<style>
+        #slideBtn,#slideDown
+        {
+            padding: 5px;
+            background-color: pink;
+            border: 1px solid yellow;
+            text-align: center;
+        }
+        #slideDown
+        {
+            padding: 60px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+       <div id="slideBtn">slide down</div>
+       <div id="slideDown">hello</div>
+</body>
+</html> 
+
+
+ -->
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script >
+		$(document).ready(function(){
+      $("#slideBtn").click(function(){
+        $("#slideUp").slideUp(5000);
+            });
+        });
+	</script>
+	<style>
+        #slideBtn,#slideUp
+        {
+            padding: 5px;
+            background-color: skyblue;
+            border: 1px solid blueviolet;
+            text-align: center;
+        }
+        #slideUp
+        {
+            padding: 60px;
+            
+        }
+    </style>
+</head>
+<body>
+       <div id="slideBtn">slide up</div>
+       <div id="slideUp">hello</div>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script >
+		$(document).ready(function(){
+      $("#slideBtn").click(function(){
+        $("#slideToggle").slideToggle(5000);
+            });
+        });
+	</script>
+	<style>
+        #slideBtn,#slideToggle
+        {
+            padding: 5px;
+            background-color: yellow;
+            border: 1px solid lightgreen;
+            text-align: center;
+        }
+        #slideToggle
+        {
+            padding: 60px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+       <div id="slideBtn">slide Toggle</div>
+       <div id="slideToggle">hello</div>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+ <!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script>
+		$(document).ready(function(){
+      $("#start").click(function(){
+       $("#testing").animate({
+        left:'300px',
+        opacity:'0.2',
+        height:'200px',
+        width:'200px'
+       });
+      });
+		});
+	</script>
+</head>
+<body>
+     <button id="start">Start Animation</button>
+     <div id="testing" style="background-color: pink; height: 100px; width: 100px; position: absolute;"></div>
+</body>
+</html> 
+
+ -->
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script>
+		$(document).ready(function(){
+      $("#start").click(function(){
+       $("#testing").animate({
+        left:'300px',
+        opacity:'0.3',
+        height:'+=200px',
+        width:'+=200px'
+       });
+      });
+		});
+	</script>
+</head>
+<body>
+     <button id="start">Start Animation</button>
+     <div id="testing" style="background-color: greenyellow; height: 100px; width: 100px; position: absolute;"></div>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script>
+		$(document).ready(function(){
+      $("#start").click(function(){
+       $("#testing").animate({
+        height:'toggle',
+        width:'toggle'
+       });
+      });
+		});
+	</script>
+</head>
+<body>
+     <button id="start">Start Animation</button>
+     <div id="testing" style="background-color: burlywood; height: 100px; width: 100px; position: absolute;"></div>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script>
+		$(document).ready(function(){
+      $("#start").click(function(){
+       $("#testing").animate({
+        height:'300px',
+        opacity:'0.3'
+       },5000);
+       $("#testing").animate({
+        width:'300px',
+        opacity:'0.3'
+       },5000);
+       $("#testing").animate({
+        height:'100px',
+        opacity:'0.3'
+       },5000);
+       $("#testing").animate({
+        width:'100px',
+        opacity:'0.3'
+       },5000);
+      });
+		});
+	</script>
+</head>
+<body>
+     <button id="start">Start Animation</button>
+     <div id="testing" style="background-color: darkslategray; height: 100px; width: 100px; position: absolute;"></div>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script>
+		$(document).ready(function(){
+      $("#start").click(function(){
+       var Div=$("#testing");
+       Div.animate({
+       	left:'300px',
+       },5000);
+       Div.animate({
+       	fontSize:'50px',
+       });
+      });
+		});
+	</script>
+</head>
+<body>
+     <button id="start">Start Animation</button>
+     <div id="testing" style="background-color: deeppink; height: 100px; width: 150px; position: absolute;">Hello</div>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+  <script >
+  	$(document).ready(function(){
+  		 $("#slideBtn").click(function()
+            {
+                $("#slideToggle").slideToggle(5000);
+            });
+            $("#stop_btn").click(function()
+            {
+                $("#slideToggle").stop();
+            });
+  	});
+  </script>
+  <style>
+        #slideBtn,#slideToggle
+        {
+            padding: 5px;
+            background-color: pink;
+            border: 1px solid yellowgreen;
+            text-align: center;
+        }
+        #slideToggle
+        {
+            padding: 50px;
+            
+        }
+    </style>
+</head>
+<body>
+      <center><button id="stop_btn">stop</button></center>
+      <div id="slideBtn">slide toggle</div>
+      <div id="slideToggle">Hello</div>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+	 <!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+     $("#mobile").keypress(function(e){
+     	var keyCode=e.which;
+     	alert(keyCode);
+     	if(keyCode>=48 && keyCode<=57)
+     	{
+     		return true;
+     	}
+     	else
+     	{
+     		alert("not allowed character value");
+     		return false;
+     	}
+     });
+		});
+	</script>
+</head>
+<body>
+       mobile:-<input type="text"  id="mobile" >
+</body>
+</html> -->
+ 
+
+
+
+
+
+
+
+
+
+
+ <!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+     $("#mobile").keypress(function(e){
+     	var keyCode=e.which;
+     	alert(keyCode);
+     	if(keyCode>=48 && keyCode<=57)
+     	{
+     		return true;
+     	}
+     	else
+     	{
+     		alert("not allowed character value");
+     		return false;
+     	}
+     });
+      $("#uname").keypress(function(e){
+        var keyCode=e.which;
+        if((keyCode>=97 && keyCode<=122)||(keyCode>=65 && keyCode<=90))
+        {
+        	$("#error_msg").text("");
+        	return true;
+        }
+        else
+        {
+        	$("#error_msg").text("not allowed numbers");
+        	$("#error_msg").css("color","red");
+        	return false;
+        }
+      });
+      $("#uname").focus(function(){
+          $("#error_msg").text("only allowed character value");
+        	$("#error_msg").css("color","blue");
+      });
+     });
+		
+	</script>
+</head>
+<body>
+       mobile:-<input type="text"  id="mobile" maxlength="10"><br><br>
+       Name Only Small Letters:- <input type="text" name="" id="uname">
+                                 <span id="error_msg"></span>
+</body>
+</html>
+ -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+     $("#mobile").keypress(function(e){
+     	var keyCode=e.which;
+     	alert(keyCode);
+     	if(keyCode>=48 && keyCode<=57)
+     	{
+     		return true;
+     	}
+     	else
+     	{
+     		alert("not allowed character value");
+     		return false;
+     	}
+     });
+      $("#uname").keypress(function(e){
+        var keyCode=e.which;
+        if(keyCode>=65 && keyCode<=90)
+        {
+        	return true;
+        }
+        else
+        {
+        	alert("not allowed small characters & numbers");
+        	return false;
+        }
+     });
+		});
+	</script>
+</head>
+<body>
+       mobile:-<input type="text"  id="mobile" maxlength="10"><br><br>
+       Name Only Small Letters:- <input type="text" name="" id="uname">
+                                 
+</body>
+</html>
+ -->
+
+
+
+
+
+
+
+
+
+
+<!--  <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+     $("#mobile").keypress(function(e){
+     	var keyCode=e.which;
+     	alert(keyCode);
+     	if(keyCode>=48 && keyCode<=57)
+     	{
+     		return true;
+     	}
+     	else
+     	{
+     		alert("not allowed character value");
+     		return false;
+     	}
+     });
+		});
+	</script>
+</head>
+<body>
+       mobile:-<input type="text"  id="mobile" maxlength="10"><br><br>
+       
+                                 
+</body>
+</html>
+ -->
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="C:\Users\91756\OneDrive\Documents\jquary_live.js"></script>
+	<script>
+		$(document).ready(function(){
+     $(".getsalary").keyup(function(){
+      var TotalDaysInMonth=parseInt($("#tdim").val());
+      
+      var EmpPresentDays=parseInt($("#epd").val());
+      var EmpAbsentDays=parseInt(TotalDaysInMonth-EmpPresentDays);
+      // $("#ead").val(EmpAbsentDays);
+      // var EmpPerDaySalary=$("#epds").val();
+      // var TotalSalary=EmpPerDaySalary*EmpPresentDays;
+      // $("#ts").val(TotalSalary);
+     });
+     
+     $("yes_btn").click(function(){
+       $("#cl_days").show();
+     });
+      $("no_btn").click(function(){
+       $("#cl_days").hide();
+     });
+      $("#cl_days").keyup(function(){
+      	var EmpCLDays=$("#cl_days").val();
+      	var EmpPresentDays=$("#epd").val();
+      	var EmpSalaryPersentDays=parseInt(EmpPresentDays)+parseInt(EmpCLDays);
+      	$
+      });
+		});
+	</script>
+</head>
+<body>
+    Total Days In Month:- <input type="text" name="" id="tdim" class="getSalary"><br><br>
+    Emp.Per Day Salary:- <input type="text" name="" id="epds"><br><br>
+    Emp .Present Days:- <input type="text" name="" id="epd" class="getSalary"><br><br>
+    Emp. Absent Days:- <input type="number	" name="" id="ead" readonly onfocus="show()"><br><br>
+    Allowe CL:- <input type="radio" name="cl" id="yes_btn">Yes
+                <input type="radio" name="cl" id="no_btn">No<br><br>
+     <div id="cl_block" style="display: none;">
+     	Emp.CL Days:-<input type="text" name="" id="cl_days"><br><br>
+     	Emp.Salary Present Days:-<input type="text" name="" id="espd"><br><br>
+     	Emp.Salary Absent Days:-<input type="text" name="" id="esad"><br><br>
+     </div>
+    total salary:- <input type="text" name="" id="ts" readonly onfocus="show()"><br><br>
+    <script>
+    		function show()
+    		{
+    				var a=parseInt(document.getElementById('tdim').value);
+    				var b=parseInt(document.getElementById('epd').value);
+    				var c=parseInt(document.getElementById('epds').value);
+    			  x=a-b;
+    			  z=b*c
+    				document.getElementById('ead').value=x;
+    				document.getElementById('ts').value=z;
+    		}
+    </script>
+</body>
+</html>
+
+ -->
+
+
+
+
+
+
+
+
+ <!-- <!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function()
+        {
+             $(".getSalary").keyup(function()
+             {
+                  var TotalDaysInMonth=$("#tdim").val();
+                  var EmpPresentDays=$("#epd").val();
+                  var EmpAbsentDays=TotalDaysInMonth-EmpPresentDays;
+                  $("#ead").val(EmpAbsentDays);
+                  
+             });
+             $("#yes_btn").click(function()
+             {
+                  $("#cl_block").show();
+
+             });
+             $("#no_btn").click(function()
+             {
+                $("#cl_block").hide();
+             });
+             $("#cl_days").keyup(function()
+             {
+                var EmpClDays=$("#cl_days").val();
+                var EmpPresentDays=$("#epd").val();
+                var EmpSalaryPresentDays=parseInt(EmpPresentDays)+parseInt(EmpClDays);
+                $("#espd").val(EmpSalaryPresentDays);
+
+                var EmpAbsentDays=$("#ead").val();
+                var EmpSalaryAbsentDays=EmpAbsentDays-EmpClDays;
+                $("#esad").val(EmpSalaryAbsentDays);
+                var EmpPerDaySalary=$("#epds").val();
+                var TotalSalary=EmpPerDaySalary*EmpSalaryPresentDays;
+                $("#ts").val(TotalSalary);
+             });
+        });
+    </script>
+ 
+</head>
+<body>
+  Total Days In Month:- <input type="text" id="tdim" class="getSalary"><br><br>
+  Emp. Per Day Salary:- <input type="text" id="epds"><br><br>
+  Emp. Present Days:- <input type="text" id="epd" class="getSalary"><br><br>
+  Emp. Absent Days:- <input type="text" id="ead" readonly><br><br>
+  Allowe CL:- <input type="radio" name="cl" id="yes_btn">Yes
+              <input type="radio" name="cl" id="no_btn">No <br><br>
+  <div id="cl_block" style="display: none;">
+      Emp.Cl Days:-<input type="text" id="cl_days"><br><br>
+      Emp.Salary Present Days:-<input type="text" id="espd"><br><br>
+      Emp.Salary Absent Days:-<input type="text" id="esad"><br><br>     
+  </div>
+   Total Salary:- <input type="text" id="ts" readonly >
+  
+</body>
+</html>
+
+
+ --> 
+
+
+
+
+
+
+
+
+
+
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("#stu_class").change(function(){
+            var ClassName=$("#stu_class").val();
+            if(ClassName>="10th" && ClassName<="12th")
+            {
+            	// $("#stu_sub").show();
+            	if(ClassName=="10th")
+            	{
+            		$("#stu_status").show();
+            		$("#stu_sub").hide();
+            	}
+            	if(ClassName=="11th")
+            	{
+            		$("#stu_sub").show();
+            		$("#stu_status").hide();
+            	}
+            	if(ClassName=="12th")
+            	{
+            		$("#stu_sub").show();
+            		$("#stu_status").show();
+            	}
+            }
+            else
+            {
+            	$("#stu_sub").hide();
+            	$("#stu_status").hide();
+            }
+          });
+        });
+      </script>
+</head>
+<body>
+    Class:- <select id="stu_class">
+    	<option>Select Class</option>
+    	<option value="1st">1st</option>
+    	<option value="2nd">2nd</option>
+    	<option value="3rd">3rd</option>
+    	<option value="4th">4th</option>
+    	<option value="5th">5th</option>
+    	<option value="6th">6th</option>
+    	<option value="7th">7th</option>
+    	<option value="8th">8th</option>
+    	<option value="9th">9th</option>
+    	<option value="10th">10th</option>
+    	<option value="11th">11th</option>
+    	<option value="12th">12th</option>
+    </select>
+    <div style="display: none;" id="stu_sub">
+    	Subjects:-<input type="radio" name="sub">Maths
+    	          <input type="radio" name="sub">Bio
+    	          <input type="radio" name="sub">Comm
+    	          <input type="radio" name="sub">Arts
+    </div>
+    <div style="display: none; " id="stu_status">
+    	Status:-<input type="radio" name="status">Regular
+    	        <input type="radio" name="status">Private
+    </div>
+</body>
+</html>
+  
+
+
+
+
+
+
+
+
+
+
+
+ <!--  <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#btn").click(function(){
+				$("#text_block").append("Name:- <input type='text'<br><br>");
+			});
+		});
+	</script>
+</head>
+<body>
+Name :- <input type="text" ><button id="btn">Add Name Text Field</button>
+<div id="text_block">
+	</div>
+</body>
+</html>  
+
+ -->
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#btn").click(function(){
+				var num=$("#no").val();
+				for(i=1;i<=num;i++)
+				{
+           $("#text_block").append("Name:- <input type='text'<br><br>");
+				}
+				
+			});
+		});
+	</script>
+</head>
+<body>
+Number :- <input type="text" id="no"><button id="btn">Add Text Field</button>
+<div id="text_block">
+	</div>
+</body>
+</html>  -->
+
+
+
+
+
+
+
+
+
+ <!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#btn").click(function(){
+				var num=$("#no").val();
+				for(i=1;i<=num;i++)
+				{
+           $("#text_block").append("Name:- <input type='text'<br><br>");
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+Enter Family Member :- <input type="text" id="no"><button id="btn">Add Text Field</button>
+<div id="text_block">
+	</div>
+</body>
+</html>   -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function()
+  {
+      $("#hide_btn").click(function()
+      {
+          $("#target").hide("blind",{direction:"vertical"},1000);
+      });
+      $("#show_btn").click(function()
+      {
+          $("#target").show("blind",{direction:"horizontal"},1000);
+      });
+  });
+  </script>
+</head>
+<body>
+  <button id="hide_btn">Hide</button>
+ <button id="show_btn">Show</button><br><br>
+ <div id="target">
+   <img src="C:\Users\91756\Downloads\background.jpg" width="100px" height="200px">
+ </div>
+</body>
+</html> 
+
+
+ -->
+
+
+
+
+
+
+
+
+
+ <!-- <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function()
+  {
+      $("#bounce_btn").click(function()
+      {
+          $("#target").effect("bounce",{times:5},5000);
+      });        
+  });
+  </script>
+</head>
+<body>
+  <button id="bounce_btn">Bounce</button><br><br>
+ <div id="target" style="width: 200px;height: 200px;background-color: red;"></div>
+</body>
+</html> -->
+ 
+
+
+
+
+
+
+
+
+
+
+
+ <!-- <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+ <script type="text/javascript">
+  $(document).ready(function()
+  {
+      $("#hide_btn").click(function()
+      {
+          $("#target").hide("clip",{direction:"horizontal"},3000);
+      });
+      $("#show_btn").click(function()
+      {
+          $("#target").show("clip",{direction:"horizontal"},3000);
+      });
+        
+  });
+  </script>
+</head>
+<body>
+  <button id="hide_btn">Hide</button>
+ <button id="show_btn">Show</button><br><br>
+ <div id="target">
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+ </div>
+</body>
+</html>
+
+  -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+ <script type="text/javascript">
+  $(document).ready(function()
+  {
+      $("#hide_btn").click(function()
+      {
+          $("#target").hide("drop",{direction:"up"},3000);
+      });
+      $("#show_btn").click(function()
+      {
+          $("#target").show("drop",{direction:"up"},3000);
+      });
+        
+  });
+  </script>
+</head>
+<body>
+  <button id="hide_btn">Hide</button>
+ <button id="show_btn">Show</button><br><br>
+ <div id="target">
+  <img src="C:\Users\91756\Downloads\background.jpg" width="100px" height="200px">
+ </div>
+</body>
+</html>  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+ <script type="text/javascript">
+  $(document).ready(function()
+  {
+      $("#hide_btn").click(function()
+      {
+          $("#target").hide("explode",{pieces:12},3000);
+      });
+      $("#show_btn").click(function()
+      {
+          $("#target").show("explode",{pieces:12},3000);
+      });
+        
+  });
+  </script>
+</head>
+<body>
+  <button id="hide_btn">Hide</button>
+ <button id="show_btn">Show</button><br><br>
+ <div id="target" style="width: 200px;height: 200px;background-color: red;">
+    <img src="C:\Users\91756\Downloads\background.jpg" height="200px" width="200px">  
+  </div>
+</body>
+</html>  -->
+ 
+
+
+
+
+
+
+
+
+
+
+ <!-- <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+ <script type="text/javascript">
+  $(document).ready(function()
+  {
+      $("#hide_btn").click(function()
+      {
+          $("#target").hide("fold",{horizFirst:true},3000);
+      });
+      $("#show_btn").click(function()
+      {
+          $("#target").show("fold",{horizFirst:true},3000);
+      });
+        
+  });
+  </script>
+</head>
+<body>
+  <button id="hide_btn">Hide</button>
+ <button id="show_btn">Show</button><br><br>
+ <div id="target" style="width: 200px;height: 200px;background-color: red;">
+   <img src="C:\Users\Public\Pictures\Sample Pictures\insta.jpg"> 
+ </div>
+</body>
+</html> -->
+ 
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function()
+  {
+      $("#hide_btn").click(function()
+      {
+          $("#target").hide("puff",3000);
+      });
+      $("#show_btn").click(function()
+      {
+          $("#target").show("puff",3000);
+      });
+        
+  });
+  </script>
+</head>
+<body>
+ <button id="hide_btn">Hide</button>
+ <button id="show_btn">Show</button><br><br>
+ <div id="target" style="width: 200px;height: 200px;background-color: red;">
+   <img src="C:\Users\Public\Pictures\Sample Pictures\insta.jpg"> 
+ </div>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function()
+  {
+      $("#hide_btn").click(function()
+      {
+          $("#target").hide("scale",{percent:200,direction:'horizontal'},3000);
+      });
+      $("#show_btn").click(function()
+      {
+         $("#target").show("scale",{percent:200,direction:'horizontal'},3000);
+      });        
+  });
+  </script>
+</head>
+<body>
+ <button id="hide_btn">Hide</button>
+ <button id="show_btn">Show</button><br><br>
+ <div id="target" style="width: 200px;height: 200px;background-color: red;">
+   <img src="C:\Users\Public\Pictures\Sample Pictures\insta.jpg"> 
+ </div>
+</body>
+</html>
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function()
+  {
+      $("#shake_btn").click(function()
+      {
+          $("#target").effect("shake",{times:9},3000);
+      });    
+        
+  });
+  </script>
+</head>
+<body>
+  <button id="hide_btn">Hide</button>
+ <button id="shake_btn">Shake</button><br><br>
+ <div id="target" style="width: 200px;height: 200px;background-color: red;">
+   <img src="C:\Users\Public\Pictures\Sample Pictures\insta.jpg"> 
+ </div>
+</body>
+</html>
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function()
+  {
+      $("#big_btn").click(function()
+      {
+          $("#target").effect("size",{to:{width:300,height:300}},3000);
+      });
+       $("#small_btn").click(function()
+      {
+          $("#target").effect("size",{to:{width:50,height:50}},3000);
+      });    
+        
+  });
+  </script>
+</head>
+<body>
+ <button id="big_btn">Big</button>
+ <button id="small_btn">Small</button><br><br>
+ <div id="target" style="width: 200px;height: 200px;background-color: red;">
+   <img src="C:\Users\Public\Pictures\Sample Pictures\insta.jpg"> 
+ </div>
+</body>
+</html>  -->
+
+
+
+
+
+
+
+
+
+
